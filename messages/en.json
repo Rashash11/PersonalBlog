@@ -1,0 +1,499 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "experience": "Experience",
+        "skills": "Skills",
+        "achievements": "Achievements",
+        "blog": "Blog",
+        "gallery": "Gallery",
+        "contact": "Contact",
+        "resume": "Resume",
+        "tools": "Tools",
+        "menu": {
+            "achievements": "Achievements",
+            "achievementsDesc": "Certifications, awards, and milestones",
+            "skills": "Skills",
+            "skillsDesc": "Technologies and tools I work with",
+            "experience": "Experience",
+            "experienceDesc": "My professional journey and growth",
+            "projects": "Projects",
+            "projectsDesc": "A showcase of all my work",
+            "blog": "Blog",
+            "blogDesc": "Thoughts and technical explorations",
+            "gallery": "Gallery",
+            "galleryDesc": "Visual archive of media and projects"
+        },
+        "shortcuts": {
+            "volume1": "Volume I: Identity",
+            "volume2": "Volume II: Professional Sequence",
+            "volume3": "Volume III: Competency Matrix",
+            "volume4": "Volume IV: Creative Output",
+            "preview": "Preview Mode",
+            "idRef": "ID_REF"
+        }
+    },
+    "hero": {
+        "greeting": "Welcome to my digital space",
+        "subtitle": "AI Engineer • Computer Vision • Python Developer",
+        "cta": {
+            "primary": "Explore Projects",
+            "secondary": "Get in Touch",
+            "exploreMore": "Explore More"
+        },
+        "badge": "Available for opportunities",
+        "scroll": "Scroll Down",
+        "role": "AI Engineer",
+        "description": "Building intelligent systems at the intersection of <span class='text-primary font-semibold'>AI</span>, <span class='text-secondary font-semibold'>Computer Vision</span>, and <span class='text-accent font-semibold'>Automation</span>."
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "AI Student & Problem Solver",
+        "description": "A passionate AI student specializing in Computer Vision, Machine Learning, and automation. Currently deepening my expertise in deep learning while building production-ready AI applications.",
+        "stats": {
+            "experience": "Years Learning",
+            "projects": "Projects Done",
+            "certifications": "Certifications",
+            "competitions": "Competitions"
+        },
+        "identity": "Identity Link Established",
+        "architecting": "Architecting",
+        "digitalReality": "Digital Reality",
+        "leadIn": {
+            "label": "WHAT I DO",
+            "tagline": "CORE FOCUS",
+            "headlineAI": "Applied AI.",
+            "headlineData": "Scalable Data.",
+            "headlineSoftware": "Robust software engineering",
+            "thesis": "I build intelligent systems and the <span class='text-primary italic font-serif-elegant font-normal'>data infrastructure</span> that makes them reliable at scale.",
+            "scope": "Focusing on predictive models, optimized data processing, and RAG pipelines designed for production environments and measurable performance.",
+            "bridging": "Bridging research and working systems.",
+            "integration": "Beyond models, I build the surrounding pipeline: data preprocessing, automation, and deployment.",
+            "signature": "Mostafa",
+            "role": "AI Engineer & Developer",
+            "aboutMe": "About Me",
+            "scroll": "Scroll to Explore",
+            "shortStory": "My Short Story"
+        },
+        "coreEngineering": {
+            "label": "Core Engineering",
+            "title": "Proven <span class='text-primary italic font-serif font-light lowercase'>stack.</span> <br /> Measurable <span class='italic font-serif font-light text-foreground'>results.</span>",
+            "p1": "I build applied AI systems using PyTorch, TensorFlow, and OpenCV — from YOLO-based object detection to NLP and recommendation models.",
+            "p2": "These models get deployed into real applications: Python automation scripts, browser extensions, and data pipelines built around Pandas and NumPy.",
+            "p3": "All projects use disciplined version control with Git, and are structured for reliable, repeatable results.",
+            "gpa": "Academic GPA",
+            "projects": "Projects Built",
+            "years": "Years Exp."
+        },
+        "emergingResearch": {
+            "label": "Exploration Phase",
+            "title": "EMERGING RESEARCH <span class='italic font-serif font-light text-primary lowercase'>&</span> EXPANSION",
+            "agentic": {
+                "title": "COMPUTER VISION & ROBOTICS",
+                "desc": "Building real-time object detection systems with YOLOv8, applied to autonomous robotic pick-and-place tasks and adaptive prosthetic control."
+            },
+            "web3": {
+                "title": "AI DATA PIPELINES",
+                "desc": "Hands-on experience managing large-scale annotation, preprocessing, and validation pipelines for computer vision and NLP model training."
+            }
+        },
+        "profile": {
+            "title": "Architecting Scalable Systems <br /> Where Intelligence Meets Engineering.",
+            "narrativeLabel": "Core Narrative",
+            "narrative": "As an Artificial Intelligence student at Helwan International Technological University, I focus on building systems that bridge research foundations with production-ready implementation.",
+            "narrative2": "My work combines computer vision, machine learning, and automation to deliver solutions that are practical, reliable, and built for real-world impact.",
+            "pillars": {
+                "reliable": {
+                    "title": "Robust by Design",
+                    "desc": "Engineered for reliability under scale and operational pressure."
+                },
+                "optimized": {
+                    "title": "Production-Ready",
+                    "desc": "From prototype to deployment with engineering discipline."
+                },
+                "maintainable": {
+                    "title": "Architected for Evolution",
+                    "desc": "Designed to grow, adapt, and sustain long-term system development."
+                },
+                "evolvable": {
+                    "title": "Data-Driven Intelligence",
+                    "desc": "Decisions powered by models, metrics, and measurable performance."
+                }
+            }
+        },
+        "closing": {
+            "experience": {
+                "label": "BACKGROUND",
+                "title1": "KEY",
+                "title2": "EXPERIENCE",
+                "viewMore": "Full Experience"
+            },
+            "projects": {
+                "label": "PORTFOLIO",
+                "title1": "FLAGSHIP",
+                "title2": "PROJECTS",
+                "viewMore": "All Projects"
+            },
+            "experiencesList": [
+                {
+                    "company": "Self-Employed",
+                    "role": "FREELANCE SOFTWARE DEVELOPER",
+                    "desc": "Delivering AI, data analysis, and automation solutions for clients, reducing processing time by 35% through predictive modeling and Python-based web scraping."
+                },
+                {
+                    "company": "Outlier",
+                    "role": "AI DATA LABELING SPECIALIST",
+                    "desc": "Managing annotation pipelines for computer vision and NLP models with 99% accuracy, and automating data preprocessing and validation workflows."
+                },
+                {
+                    "company": "GUPCO",
+                    "role": "IT & PROGRAMMING INTERN",
+                    "desc": "Developed Python and Bash scripts that cut internal diagnostic time by 30%."
+                },
+                {
+                    "company": "PMS",
+                    "role": "IT & PROGRAMMING INTERN",
+                    "desc": "Built automation tools to process 200+ daily logs, improving reporting speed."
+                }
+            ],
+            "projectsList": [
+                {
+                    "title": "Robotic Arm with AI Vision",
+                    "desc": "Autonomous pick-and-place robotic arm achieving 98% accuracy by combining YOLOv8 object detection with the DeepSeek API."
+                },
+                {
+                    "title": "AI-Powered Secure Chat Monitor",
+                    "desc": "A Chrome extension that uses AI to monitor chat activity in real time, blocking 90% of potential confidential data leaks."
+                },
+                {
+                    "title": "Restaurant Recommendation Engine",
+                    "desc": "A Neural Collaborative Filtering recommendation engine built in PyTorch that increased user engagement by 15%."
+                },
+                {
+                    "title": "AI-Powered Prosthetic Hand",
+                    "desc": "Sensor-based Python control system with adaptive AI for personalized prosthetic hand movement, improving responsiveness by 25%."
+                },
+                {
+                    "title": "NASA International Space Apps Challenge",
+                    "desc": "An AI-enhanced space data visualization platform built for the NASA International Space Apps Challenge, used by 500+ users."
+                }
+            ],
+            "discoverMore": "Discover More"
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "A showcase of my creative and technical work",
+        "search": "Search projects...",
+        "viewAll": "View All Projects",
+        "viewProject": "View Project",
+        "liveDemo": "Live Demo",
+        "sourceCode": "Source Code",
+        "techStack": "Tech Stack",
+        "tools": "Tools Used",
+        "highlights": "Highlights",
+        "challenges": "Challenges",
+        "filters": {
+            "all": "All",
+            "ongoing": "Ongoing",
+            "completed": "Completed"
+        },
+        "sections": {
+            "missionBrief": "Mission Brief",
+            "keyFeatures": "Key Features",
+            "engineeringChronicles": "Engineering Chronicles",
+            "visualGallery": "Visual Gallery",
+            "installation": "Installation Instructions",
+            "projectAccess": "Project Access",
+            "technologies": "Technologies",
+            "contents": "Table of Contents",
+            "moreProjects": "More Projects",
+            "backToProjects": "Back to Projects",
+            "viewMore": "View More",
+            "viewLess": "Show Less",
+            "solution": "Solution",
+            "liveDemo": "Live Demo",
+            "sourceCode": "Source Code"
+        },
+        "status": {
+            "ongoing": "Active Development",
+            "completed": "Completed Project"
+        },
+        "metadata": {
+            "role": "Role",
+            "timeline": "Timeline",
+            "team": "Team",
+            "techStack": "Tech Stack",
+            "roleValue": "Full Stack Dev",
+            "teamValue": "Individual",
+            "techStackValue": "{count} Technologies"
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "subtitle": "My professional journey and growth",
+        "showDetail": "Show Detail",
+        "hideDetail": "Hide Detail",
+        "tasks": "TASKS",
+        "learned": "WHAT I LEARNED",
+        "impact": "IMPACT",
+        "present": "Present",
+        "responsibilities": "Responsibilities",
+        "skills": "Skills Used",
+        "month": "month",
+        "months": "months",
+        "year": "year",
+        "years": "years",
+        "type": {
+            "full-time": "Full-time",
+            "part-time": "Part-time",
+            "internship": "Internship",
+            "freelance": "Freelance",
+            "contract": "Contract",
+            "apprenticeship": "Apprenticeship",
+            "volunteer": "Volunteer"
+        },
+        "filters": {
+            "all": "All",
+            "latest": "Latest",
+            "oldest": "Oldest",
+            "ongoing": "Ongoing"
+        },
+        "education": {
+            "title": "Education"
+        }
+    },
+    "expertise": {
+        "title": "Core Capabilities",
+        "subtitle": "Specialized in cutting-edge technologies that power modern digital experiences",
+        "dragHint": "Drag or scroll to explore"
+    },
+    "skills": {
+        "title": "Skills & Tools",
+        "subtitle": "Technologies and tools I work with",
+        "hard": "Hard Skills",
+        "soft": "Soft Skills",
+        "technical": "Technical Proficiency",
+        "tools": "Tools & Software",
+        "pillars": "Core Pillars",
+        "achievements": "Verified Achievements",
+        "level": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced",
+            "expert": "Expert"
+        }
+    },
+    "achievements": {
+        "title": "Achievements",
+        "subtitle": "Certifications, awards, and milestones",
+        "search": "Search achievements...",
+        "viewCredential": "View Credential",
+        "category": {
+            "all": "All",
+            "certification": "Certification",
+            "award": "Award",
+            "publication": "Publication",
+            "competition": "Competition"
+        },
+        "sort": {
+            "newest": "Newest",
+            "oldest": "Oldest"
+        },
+        "stats": {
+            "total": "Total Achievements",
+            "awards": "Awards Won",
+            "certifications": "Certifications"
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Let's build something amazing together",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "Your Message",
+            "messagePlaceholder": "Tell me about your project...",
+            "send": "Send Message",
+            "submit": "SEND MESSAGE",
+            "sending": "SENDING...",
+            "sent": "SENT!",
+            "success": "Message sent successfully!",
+            "error": "Something went wrong. Please try again."
+        },
+        "social": {
+            "title": "Connect on Social Media"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions"
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Phone",
+            "location": "Location",
+            "availability": "Open for opportunities"
+        },
+        "hero": {
+            "title": "LET'S TALK",
+            "subtitle": "Have an idea? Let's build something extraordinary together.",
+            "ticker": {
+                "build": "Let's Build Something Amazing · ",
+                "freelance": "Available for Freelance · "
+            }
+        },
+        "faqData": [
+            {
+                "q": "What is your main area of expertise?",
+                "a": "As an Artificial Intelligence student at Helwan International Technological University, I specialize in Computer Vision (YOLO-based object detection), Natural Language Processing, and Python-based automation and data analysis."
+            },
+            {
+                "q": "Are you available for internships or freelance collaborations?",
+                "a": "Absolutely. I'm currently freelancing and open to internships, research collaborations, and freelance projects in AI, computer vision, and automation."
+            },
+            {
+                "q": "What is your typical tech stack?",
+                "a": "For AI and ML work, I primarily use Python with PyTorch, TensorFlow, and OpenCV. For automation and data work, I rely on Pandas, NumPy, and Bash scripting, alongside JavaScript for browser-based tools."
+            },
+            {
+                "q": "Do you have experience with real-world or client projects?",
+                "a": "Yes — as a freelance developer and AI Data Labeling Specialist at Outlier, plus internships at GUPCO and PMS, I've delivered automation, data analysis, and annotation-pipeline work in production settings."
+            },
+            {
+                "q": "How can we start a partnership or project?",
+                "a": "The most efficient way is to use the contact form above or reach out directly via email at mi7418298@gmail.com. I'm usually able to respond within 24 hours to discuss how I can help with your project."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "All rights reserved.",
+        "madeWith": "Made with",
+        "more": "More",
+        "marquee": [
+            "Open to Opportunities",
+            "Computer Vision",
+            "Machine Learning",
+            "Data Automation",
+            "Python Development",
+            "AI Engineering"
+        ],
+        "cta": {
+            "title": "Let's Work",
+            "titleHighlight": "Together",
+            "subtitle": "Have a project in mind? Let's build something extraordinary that solves real problems."
+        },
+        "links": "LINKS",
+        "socials": "SOCIALS",
+        "localTime": "LOCAL TIME",
+        "version": "VERSION",
+        "versionEdition": "2026 © Edition"
+    },
+    "ctaSection": {
+        "title": "Let's Build Something",
+        "together": "Together",
+        "subtitle": "Open to strategic collaborations in AI driven systems and scalable full Stack Engineering. Let’s transform ambitious ideas into production ready solutions.",
+        "start": "Hire Me",
+        "work": "View My Resume",
+        "words": {
+            "amazing": "Amazing",
+            "innovative": "Innovative",
+            "intelligent": "Intelligent",
+            "creative": "Creative"
+        },
+        "ribbon1": "Python • PyTorch • TensorFlow • OpenCV • YOLO • Pandas • NumPy • JavaScript • Java • SQL",
+        "ribbon2": "AI Engineer • Computer Vision Engineer • Machine Learning Engineer • Data Analyst • Automation Engineer • Junior Software Developer • NLP Engineer"
+    },
+    "stats": {
+        "systemStatus": "System Status: Analytics Active",
+        "portfolio": "Engineering Metrics",
+        "totalPulse": "Total Pulse",
+        "peakActivity": "Peak Activity",
+        "dailyAverage": "Daily Average",
+        "currentSprint": "Current Sprint",
+        "engageFlow": "Engage Flow",
+        "weeklyEffort": "Weekly Coding Effort",
+        "processSpeed": "Process Speed",
+        "avgPerf": "Average Performance",
+        "latency": "LATENCY: 14MS",
+        "system": "SYSTEM: DARWIN_X64_STABLE",
+        "scanning": "SCANNING_LIVE_RESOURCES",
+        "engineering": "ENGINEERING",
+        "metrics": "METRICS",
+        "analyticsSub": "ANALYTICS / INFRASTRUCTURE / PERFORMANCE DATA",
+        "statusOnline": "STATUS: ONLINE",
+        "loadStable": "SYSTEM_LOAD: STABLE"
+    },
+    "projectHeader": {
+        "title": "Architecting Digital Reality",
+        "subtitle": "A curated showcase of technical innovation and applied engineering. Exploring the frontiers of <span class='font-bold text-foreground'>Artificial Intelligence</span>, Computer Vision, Data, and Automation."
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Something went wrong",
+        "notFound": "Page not found",
+        "backHome": "Back to Home",
+        "viewMore": "View More",
+        "readMore": "Read More",
+        "close": "Close",
+        "download": "Download",
+        "share": "Share",
+        "scrollAudit": "Scroll to explore"
+    },
+    "technical": {
+        "github": {
+            "title": "GitHub Contributions",
+            "description": "My GitHub activity over the last year.",
+            "total": "Total",
+            "thisWeek": "This Week",
+            "best": "Best",
+            "average": "Average",
+            "less": "Less",
+            "more": "More"
+        }
+    },
+    "blog": {
+        "title": "Thoughts & Explorations",
+        "subtitle": "Bridging the gap between technical complexity and practical implementation. A collection of insights on AI, computer vision, and software engineering.",
+        "sectionBadge": "The Digital Archive",
+        "search": "Search articles...",
+        "readTime": "min read",
+        "readMore": "Read Post",
+        "back": "Back to Blog",
+        "noResults": "No articles found",
+        "categories": {
+            "applied-ai": "Applied AI",
+            "software-development": "Software Dev",
+            "about-me": "About Me",
+            "more": "More"
+        }
+    },
+    "gallery": {
+        "title": "Visual Archive",
+        "subtitle": "A curated collection of project highlights, technical documentation, and creative visual explorations.",
+        "filter": {
+            "all": "All Media",
+            "image": "Photos",
+            "video": "Videos"
+        },
+        "viewMedia": "View Media"
+    },
+    "chatbot": {
+        "title": "AI Assistant",
+        "subtitle": "Ask me about Mostafa",
+        "placeholder": "Type a message...",
+        "greeting": "Hi! I'm an AI assistant for **{name}**. 👋\n\nI can answer questions about:\n- Skills & technical expertise\n- Projects and work\n- Experience\n- Education\n- And more!\n\nAnything you'd like to ask?",
+        "suggestions": [
+            "What are your main skills?",
+            "Tell me about your best project",
+            "What is your work experience?",
+            "What AI skills do you have?"
+        ],
+        "error": "An error occurred. Please try again.",
+        "invalidResponse": "Invalid response from server.",
+        "unknownError": "An unknown error occurred.",
+        "retry": "Try again",
+        "inputHint": "Enter to send, Shift+Enter for newline",
+        "close": "Close chat"
+    }
+}
