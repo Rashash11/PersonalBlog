@@ -4,30 +4,29 @@ import React, { useRef, useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { WarpBackground } from "@/components/ui/warp-background";
 import { motion, useScroll, useTransform, useSpring, useMotionValueEvent, AnimatePresence } from "framer-motion";
 import { useTheme } from "next-themes";
-import ImageTrail from "@/components/ImageTrail";
 import Image from "next/image";
-import InfiniteMenu from "@/components/InfiniteMenu";
 import { portfolioData } from "@/data/portfolio";
-import { BeamDivider } from "@/components/ui/BeamDivider";
-import ScrollReveal from "@/components/ScrollReveal";
 import { Github, Linkedin, MessageSquare, ArrowRight, ArrowUpRight } from "lucide-react";
 import { useIsMobile } from "@/hooks/useIsMobile";
 import { useCountUp } from "@/hooks/useCountUp";
-import { SocialCorner } from "@/components/layout/SocialCorner";
 import { cn } from "@/lib/utils";
+import { LazyMount } from "@/components/ui/LazyMount";
 
 import Testimonial1 from "@/components/ui/testimonial-1";
 import { IdentitySequence } from "./IdentitySequence";
-import ScrollAdventure from "@/components/ui/animated-scroll";
-import Bucket from "@/components/ui/bucket";
-import { ArgentLoopInfiniteSlider } from "@/components/ui/argent-loop-infinite-slider";
-import { HorizontalTimeline } from "@/components/ui/horizontal-timeline";
-import { CertificateShowcase } from "@/components/ui/certificate-marquee";
-import { GitHubShowcase } from "@/components/ui/github-showcase";
-import { ShowcaseStack } from "@/components/ui/showcase-stack";
+
+// Below-the-fold and/or heavy (physics, WebGL/canvas, API-fetching) sections —
+// code-split out of the main bundle; only fetched once LazyMount decides to
+// render them (see usage below).
+const ScrollAdventure = dynamic(() => import("@/components/ui/animated-scroll"), { ssr: false, loading: () => null });
+const Bucket = dynamic(() => import("@/components/ui/bucket"), { ssr: false, loading: () => null });
+const ArgentLoopInfiniteSlider = dynamic(() => import("@/components/ui/argent-loop-infinite-slider").then(m => m.ArgentLoopInfiniteSlider), { ssr: false, loading: () => null });
+const HorizontalTimeline = dynamic(() => import("@/components/ui/horizontal-timeline").then(m => m.HorizontalTimeline), { ssr: false, loading: () => null });
+const CertificateShowcase = dynamic(() => import("@/components/ui/certificate-marquee").then(m => m.CertificateShowcase), { ssr: false, loading: () => null });
+const GitHubShowcase = dynamic(() => import("@/components/ui/github-showcase").then(m => m.GitHubShowcase), { ssr: false, loading: () => null });
+const ShowcaseStack = dynamic(() => import("@/components/ui/showcase-stack").then(m => m.ShowcaseStack), { ssr: false, loading: () => null });
 
 const showcaseMembers = [
     // 1. Freelance Software Developer
@@ -605,9 +604,15 @@ export default function AboutSection() {
                 {/* Content wrapper with background - rounded corners removed to allow animated border to control the shape */}
                 <div className="bg-background dark:bg-black transition-colors duration-500 pointer-events-auto relative">
 
-                    <ScrollHijackSection />
-                    <ScrollAdventure />
-                    <ArgentLoopInfiniteSlider />
+                    <LazyMount margin="300px">
+                        <ScrollHijackSection />
+                    </LazyMount>
+                    <LazyMount margin="400px">
+                        <ScrollAdventure />
+                    </LazyMount>
+                    <LazyMount margin="400px">
+                        <ArgentLoopInfiniteSlider />
+                    </LazyMount>
                     {/* Seamless solid background section overlapping the slider's dead space */}
                     <div className="-mt-[50vh] flex flex-col items-center w-full bg-background relative z-20 pt-32 pb-32">
                         <motion.div
@@ -620,6 +625,7 @@ export default function AboutSection() {
                             <div className="mb-6 md:mb-10 text-center space-y-4">
                             </div>
                             <div className="w-full pb-0">
+                              <LazyMount margin="400px">
                                 <HorizontalTimeline data={showcaseMembers.map((member) => ({
                                     title: member.id === 'view-more' ? 'Explore all experiences' : (member.role || member.name),
                                     isEnd: member.id === 'view-more',
@@ -671,22 +677,29 @@ export default function AboutSection() {
                                         </div>
                                     )
                                 }))} />
+                              </LazyMount>
                             </div>
                         </motion.div>
 
                         {/* Certificate Showcase Section */}
                         <div className="w-full mt-8 md:mt-12">
-                            <CertificateShowcase />
+                            <LazyMount margin="400px">
+                                <CertificateShowcase />
+                            </LazyMount>
                         </div>
 
                         {/* Stacking Card Showcases */}
-                        <ShowcaseStack>
-                            <div className="w-full">
-                                <GitHubShowcase />
-                            </div>
-                        </ShowcaseStack>
+                        <LazyMount margin="400px">
+                            <ShowcaseStack>
+                                <div className="w-full">
+                                    <GitHubShowcase />
+                                </div>
+                            </ShowcaseStack>
+                        </LazyMount>
                     </div>
-                    <AuditFunnel />
+                    <LazyMount margin="400px">
+                        <AuditFunnel />
+                    </LazyMount>
                 </div>
             </div>
         </section >
